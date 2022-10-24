@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    
+    <title>Carrinho</title>
+</head>
+
+
+<body>
+
+    <header id="header">
+        <div class="container">
+            <div class="flex-box">
+                <a href="/index.html" class="logo">
+                    <img src="./assets/Ativo 1@2x 1 (1).png" alt="Logo Kenzie Festival" srcset="">
+                </a>
+
+                <nav class="menu">
+                    <ul>
+                        <li>
+                            <a href="/index.html#sobre" target="" rel="">
+                                Sobre
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="/carrinho.html" class="btn outline">
+                        Quero o meu ingresso
+                    </a>
+                    <button>
+                        <img src="./assets/Vector.png" alt="Modo diurno">
+                    </button>
+                </nav>
+            </div>
+
+
+        </div>
+
+    </header>
+
+    <section id="carrinho">
+        <div class="container">
+            <div class="flex-box">
+                <div class="left">
+
+                    <h1 class="titulo two">Finalizar compra</h1>
+
+                    <ul class="list-ticket">
+                        <li class="ticket2">
+                            <h3 class="titulo four">Ingresso para o Kenzie Festival</h3>
+                            <div class="preco">
+                                <div class="controls">
+                                    <button id="remover">-</button>
+                                    <span id="quant">1</span>
+                                    <button id="adicionar">+</button>
+                                </div>
+                                <p class="titulo three" >R$ <span id="valores">90</span>,00 valor total.</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+                <div class="right">
+                    <div>
+                        <h2 class="titulo three pad20-bottom">Preencha os campos</h2>
+                        <form class="form" id="cartForm">
+                            <input type="text" name="nome" id="nome" placeholder="Seu nome:">
+                            <input type="email" name="email" id="email" placeholder="Seu e-mail:">
+                            <button type="submit" class="btn solid" id="buy-buttom">Finalizar compra</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            
+
+
+        </div>
+
+    </section>
+
+
+</body>
+
+<script src="main.js"></script>
+
+</html>
