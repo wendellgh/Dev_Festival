@@ -45,3 +45,11 @@ cartForm.addEventListener("submit", (e) => {
 
 
 })
+
+function diurno(){
+    document.body.style.background = 'white'
+    const modo = document.getElementById('modo')
+    modo.innerHTML = "./assets/VectorLua.png"
+    
+
+}
