@@ -47,9 +47,17 @@ cartForm.addEventListener("submit", (e) => {
 })
 
 function diurno(){
+
     document.body.style.background = 'white'
     const modo = document.getElementById('modo')
     modo.innerHTML = "./assets/VectorLua.png"
+    document.getElementById('modo').src = "./assets/VectorLua.png"
+    document.getElementById('p').style.color = "black"
+    document.getElementById('p2').style.color = "black"
+    document.getElementById('th2').style.color = "black"
+    document.getElementById('Ah2').style.color = "black"
+    document.getElementById('festh1').style.color = "black"
+    
     
 
 }
